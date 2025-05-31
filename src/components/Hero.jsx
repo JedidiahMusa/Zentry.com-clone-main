@@ -42,6 +42,7 @@ function Hero() {
     },
     { dependencies: [currentIndex], revertOnUpdate: true }
   );
+  {}
   useGSAP(() => {
     gsap.set("#video-frame", {
       clipPath: " polygon(14% 0%, 72% 0%, 90% 90%, 0% 100%) ",
